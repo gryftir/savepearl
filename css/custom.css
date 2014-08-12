@@ -24,10 +24,19 @@ body {
 	background-color: #B1F6CB;
 	color: black;
 }
+.slick-prev:before, .slick-next:before {
+	color: #000;
+}
 
 .black {
 	color: black;
 }
+
+.title {
+	font-family: 'Signika', sans-serif;
+	font-weight: 400;
+}
+	
 
 .blue-pretty {
 	background-color: #D5FAFF;
