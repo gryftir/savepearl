@@ -1,0 +1,83 @@
+
+html, body {
+	height: 100%;
+}
+
+body {
+}
+
+/*Wrappers */
+
+.wrapper {
+	box-shadow: inset 0px 1px 0px 0px rgba(0.0.0.0.05), inset 0px 2px 3px 0px rgba(0,0,0,0.1);
+}	
+
+.brown {
+	background-color: #674534;
+}
+
+.paper-background {
+	background-image: url(../images/textured_paper.png);
+}
+
+.green-button {
+	background-color: #B1F6CB;
+	color: black;
+}
+
+.black {
+	color: black;
+}
+
+.blue-pretty {
+	background-color: #D5FAFF;
+}
+.green-pretty {
+	background-color: #EBFDD4;
+}
+.blue-pentagon-background {
+	background-image: url(../images/blue_pentagon.png);
+}
+.pentagon-background {
+	background-image: url(../images/congruent_pentagon.png);
+}
+
+.white {
+	background-color: white;
+}
+
+.top-pad {
+	padding-top: 70px;
+}
+
+.min-pad {
+	padding-bottom: 15px;
+}
+
+.c {
+	text-align: center;
+}
+
+
+.tall {
+height:auto !important; /* real browsers */
+height:100%; /* IE6: treaded as min-height*/
+min-height:100%; /* real browsers */
+}
+
+
+.blueback-1 {
+	background-color:	#42cac5;
+	color: white;
+}
+
+.blueback-2 {
+	background-color:	#428bca;
+	color: white;
+	height: 100%;
+	min-height:100%;
+}
+.blueback-3 {
+	background-color:	#4247ca;
+	color: white;
+}
