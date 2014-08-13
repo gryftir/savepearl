@@ -69,6 +69,16 @@ body {
 	text-align: center;
 }
 
+.blue-border {
+	border: 1px solid #76E1FD;
+}
+
+.no-left-pad {
+	padding-left: 0px;
+}
+
+}
+
 
 .tall {
 height:auto !important; /* real browsers */
