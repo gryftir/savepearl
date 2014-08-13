@@ -35,8 +35,10 @@ body {
 .title {
 	font-family: 'Signika', sans-serif;
 	font-weight: 400;
+	text-shadow: #0b5b29 3px 3px 2px;
+	text-transform: uppercase ;
 }
-	
+
 
 .blue-pretty {
 	background-color: #D5FAFF;
