@@ -1,17 +1,28 @@
 /*Copyright Lawrence Siebert 2014*/
-html, body, h1, h2, h3, p {
-	height: 100%;
-	font-family: 'Droid', sans-serif;
+html,
+body,
+h1,
+h2,
+h3,
+p
+{
+    font-family: 'Droid', sans-serif;
+
+    height: 100%;
 }
 
-body {
-	  position: relative;
-	}
+body
+{
+    position: relative;
+}
 
-@media all and (min-width: 45em) {
-    body:after {
-        content: 'widescreen';
+@media all and (min-width: 45em)
+{
+    body:after
+    {
         display: none;
+
+        content: 'widescreen';
     }
 }
 
@@ -19,110 +30,138 @@ body {
 
 
 
-.wrapper {
-	box-shadow: inset 0px 1px 0px 0px rgba(0.0.0.0.05), inset 0px 2px 3px 0px rgba(0,0,0,0.1);
-}	
-
-.brown {
-	background-color: #674534;
+.wrapper
+{
+    box-shadow: inset 0 1px 0 0 rgba(.0.0.0.05), inset 0 2px 3px 0 rgba(0,0,0,.1);
 }
 
-.paper-background {
-	background-image: url(../images/textured_paper.png);
+.brown
+{
+    background-color: #674534;
 }
 
-.green-button {
-	background-color: #B1F6CB;
-	color: black;
-}
-.slick-prev:before, .slick-next:before {
-	color: #000;
+.paper-background
+{
+    background-image: url(../images/textured_paper.png);
 }
 
-.black {
-	color: black;
+.green-button
+{
+    color: black;
+    background-color: #b1f6cb;
+}
+.slick-prev:before,
+.slick-next:before
+{
+    color: #000;
 }
 
-.title {
-	font-family: 'Signika', sans-serif;
-	font-weight: 400;
-	text-shadow: #0b5b29 2px 2px 2px;
-	text-transform: uppercase ;
+.black
+{
+    color: black;
 }
 
+.title
+{
+    font-family: 'Signika', sans-serif;
+    font-weight: 400;
 
-.blue-pretty {
-	background-color: #D5FAFF;
-}
-.green-pretty {
-	background-color: #EBFDD4;
-}
-.blue-pentagon-background {
-	background-image: url(../images/blue_pentagon.png);
-}
-.pentagon-background {
-	background-image: url(../images/congruent_pentagon.png);
-}
+    text-transform: uppercase ;
 
-.white {
-	background-color: white;
-}
-
-.top-pad {
-	padding-top: 70px;
-}
-
-.min-pad {
-	padding-bottom: 15px;
-}
-
-.c {
-	text-align: center;
-}
-
-.blue-border {
-	border: 1px solid #76E1FD;
-}
-
-.no-left-pad {
-	padding-left: 0px;
-}
-
-.button-text {
-	font-weight: 800;
-	font-size: 16px;
-}
-
-.list {
-	font-weight:bold;
-	font-size: 16px;
-	font-family: 'Ubuntu', sans-serif;
+    text-shadow: #0b5b29 2px 2px 2px;
 }
 
 
-.tall {
-height:auto !important; /* real browsers */
-height:100%; /* IE6: treaded as min-height*/
-min-height:100%; /* real browsers */
+.blue-pretty
+{
+    background-color: #d5faff;
+}
+.green-pretty
+{
+    background-color: #ebfdd4;
+}
+.blue-pentagon-background
+{
+    background-image: url(../images/blue_pentagon.png);
+}
+.pentagon-background
+{
+    background-image: url(../images/congruent_pentagon.png);
 }
 
-.top-pad-half {
-	padding-top: 35px;
+.white
+{
+    background-color: white;
+}
+
+.top-pad
+{
+    padding-top: 70px;
+}
+
+.min-pad
+{
+    padding-bottom: 15px;
+}
+
+.c
+{
+    text-align: center;
+}
+
+.blue-border
+{
+    border: 1px solid #76e1fd;
+}
+
+.no-left-pad
+{
+    padding-left: 0;
+}
+
+.button-text
+{
+    font-size: 16px;
+    font-weight: 800;
+}
+
+.list
+{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
 }
 
 
-.blueback-1 {
-	background-color:	#42cac5;
-	color: white;
+.tall
+{
+    height: auto !important; /* real browsers */
+    height: 100%; /* IE6: treaded as min-height*/
+    min-height: 100%; /* real browsers */
 }
 
-.blueback-2 {
-	background-color:	#428bca;
-	color: white;
-	height: 100%;
-	min-height:100%;
+.top-pad-half
+{
+    padding-top: 35px;
 }
-.blueback-3 {
-	background-color:	#4247ca;
-	color: white;
+
+
+.blueback-1
+{
+    color: white;
+    background-color: #42cac5;
+}
+
+.blueback-2
+{
+    height: 100%;
+    min-height: 100%;
+
+    color: white;
+    background-color: #428bca;
+}
+.blueback-3
+{
+    color: white;
+    background-color: #4247ca;
 }
