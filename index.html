@@ -1,11 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
 	<head>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
 		<meta charset="utf-8">
-		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<title>Pearls of Africa Children's Home</title>
-		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
 		<meta name="description" content="Pearls of Africa, Rosette's Kids Orphanage in Uganda" />
 		<meta name="keywords" content="Uganda, Charity, 501c(3), Non-profit, NGO, Orphanage, Aid africa" />
 		<!-- Bootstrap -->
@@ -22,7 +21,7 @@
 		<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
 		<![endif]-->
 	</head>
-	<body>
+	<body data-spy="scroll"  data-target=".collapse">
 
 		<!--Content-->
 		<div class="navbar navbar-default navbar-fixed-top" role="navigation">
@@ -40,7 +39,7 @@
 				<!-- Collect the nav links, forms, and other content for toggling -->
 				<div class="navbar-collapse collapse" >
 					<ul class="nav navbar-nav">
-						<li><a href="#">Top</a></li>
+						<li><a href="#top">Top</a></li>
 						<li><a href="#benefits">Benefits we Provide</a></li>
 						<li><a href="#children">Meet some of the Children</a></li>
 						<li><a href="#donate">Donate</a></li>
@@ -53,7 +52,7 @@
 		<!--Content-->
 
 		<!--First Section-->
-		<div class="top-pad tall pentagon-background">
+		<div id="top" class="top-pad tall pentagon-background">
 			<div class="jumbotron wrapper green-pretty" >
 				<div class="container " >
 					<div class="row">
@@ -75,14 +74,14 @@
 									<li>We need your help to continue this vital service</li>
 								</ul>
 								<div class="top-pad  col-xs-offset-2 col-sm-offset-2 col-md-6 col-sm-12 col-xs-12 col-lg-6">
-								<form action="https://www.paypal.com/cgi-bin/webscr" method="post">
-									<input name="cmd" value="_s-xclick" type="hidden">
-									<input name="hosted_button_id" value="5EU4ABS43D38A" type="hidden">
-									<input src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" name="submit" alt="PayPal - The safer, easier way to pay online!"  type="image">
-									<img alt="" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" border="0" height="1" width="1">
-							</form>
-						</div>
-						<div class="top-pad col-md-7 col-sm-8 col-xs-8 col-lg-7">
+									<form action="https://www.paypal.com/cgi-bin/webscr" method="post">
+										<input name="cmd" value="_s-xclick" type="hidden">
+										<input name="hosted_button_id" value="5EU4ABS43D38A" type="hidden">
+										<input src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" name="submit" alt="PayPal - The safer, easier way to pay online!"  type="image">
+										<img alt="" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" border="0" height="1" width="1">
+									</form>
+								</div>
+								<div class="top-pad col-md-7 col-sm-8 col-xs-8 col-lg-7">
 									<a href="#benefits" class="center-block btn button-text btn-primary  btn-large">What your Donation provides</a>
 									<p></p>
 								</div>
@@ -231,6 +230,9 @@
 								<p>
 									100% of your donation goes to support our efforts at Pearls of Africa Children's Home through the <a href="http://apps.irs.gov/app/eos/pub78Search.do?ein1=93-1222635&names=&city=&state=All...&country=US&deductibility=all&dispatchMethod=searchCharities&submitName=Search">IRS Recognized 501c(3)</a> and Uganda recognized NGO, <a href="http://www.aidafrica.net">Aid Africa.</a>
 								</p>
+								<p>You Can email us at <a href="mailto:ugandapeter@yahoo.com">ugandapeter@yahoo.com</a> or </p>
+										<a href="#contact" class="center-block btn button-text btn-primary  btn-large">Contact us with our web form</a>
+
 							</div>
 							<div class="col-md-6">
 								<img src="images/building.jpg" alt="" class="img-responsive">
@@ -250,31 +252,43 @@
 			</div>
 		</div>
 
+		<!--Contact-->
+		<div id="contact" class="pentagon-background top-pad tall">
+			<div class="container">
+					<div class="row">
+						<div class="col-md-12 text-center">
+							<iframe src="https://docs.google.com/forms/d/1gjAit3l_vkqVLeTgkcmEhsRGkWgfXXb_UmiciEkwp7c/viewform?embedded=true" width="760" height="650" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>	
+						</div>
+					</div>
+				</div>
+			</div>
 
-		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-		<!-- Include all compiled plugins (below), or include individual files as needed -->
-		<script src="js/bootstrap.min.js"></script>
-		<!--Allows you to use back button between dividers-->
-		<script src="js/jquery.ba-bbq.min.js"></script>
-		<!--Enables smooth scrolling-->
-		<script src="js/jquery.smooth-scroll.min.js"></script>
-		<script>
-			$('a').smoothScroll();
-		</script>
-		<script src='http://127.0.0.1:9001/js/socket.js'></script>
-		<script type="text/javascript" src="//cdn.jsdelivr.net/jquery.slick/1.3.7/slick.min.js"></script>
 
-		<script type="text/javascript">
 
-			$(document).ready(function(){
-				$('.slider').slick({
-					autoplay: true,
-					cssEase: 'linear',
-					dots: true,	
-					autoplaySpeed: 8000,
+			<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+			<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+			<!-- Include all compiled plugins (below), or include individual files as needed -->
+			<script src="js/bootstrap.min.js"></script>
+			<!--Allows you to use back button between dividers-->
+			<script src="js/jquery.ba-bbq.min.js"></script>
+			<!--Enables smooth scrolling-->
+			<script src="js/jquery.smooth-scroll.min.js"></script>
+			<script>
+				$('a').smoothScroll();
+			</script>
+			<script src='http://127.0.0.1:9001/js/socket.js'></script>
+			<script type="text/javascript" src="//cdn.jsdelivr.net/jquery.slick/1.3.7/slick.min.js"></script>
+
+			<script type="text/javascript">
+
+				$(document).ready(function(){
+					$('.slider').slick({
+						autoplay: true,
+						cssEase: 'linear',
+						dots: true,	
+						autoplaySpeed: 8000,
+					});
 				});
-			});
-		</script>
-	</body>
-</html>
+			</script>
+		</body>
+	</html>
