@@ -46,7 +46,7 @@ body {
 .title {
 	font-family: 'Signika', sans-serif;
 	font-weight: 400;
-	text-shadow: #0b5b29 3px 3px 2px;
+	text-shadow: #0b5b29 2px 2px 2px;
 	text-transform: uppercase ;
 }
 
@@ -104,6 +104,10 @@ body {
 height:auto !important; /* real browsers */
 height:100%; /* IE6: treaded as min-height*/
 min-height:100%; /* real browsers */
+}
+
+.top-pad-half {
+	padding-top: 35px;
 }
 
 
